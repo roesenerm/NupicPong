@@ -2,9 +2,11 @@ Nupic Pong
 
 A modified pong game written in pygame using Nupic OPF to create predictions
 
-Coordinates are sent to the OPF when the ball hits either player 1, player 2(AI), or the top and bottom walls. 
-Nupic creates a prediction and sends this to Player 2(AI). 
-The Y axis is all that is changed to move the paddle/bat up or down
+1. Coordinates are sent to the OPF when the ball hits either player 1, player 2(AI), or the top and bottom walls. 
+
+2. Nupic creates a prediction and sends this to Player 2(AI). 
+
+3. The Y axis of player 2(AI) is changed to move the paddle/bat up or down
 
 
 
